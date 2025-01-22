@@ -4,12 +4,62 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		*{
+			padding:0px;
+			margin:0px;
+			box-sizing:border-box;
+		}
+		.container{
+			height:600px;
+			width:400px;
+			background-color:lightgray;
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			
+		}
+		img{
+			width:300px;
+		    padding-top:40px;
+		}
+		h1{
+			font-size:45px;
+			padding-top:20px;
+		}
+		.price{
+			font-size:30px;
+			padding-top:10px;
+		}
+		.description{
+			font-size:30px;
+			text-align:center;
+		}
+		button{
+			height:70px;
+			width:150px;
+			margin-top:20px;
+			background-color:orangered;
+			font-size:30px;
+			color:white;
+			border-radius:25px;
+			border:none;
+
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<div class="container">
+		<img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/mysterious-fantasy-forest-with-old-bridges-free-image.jpg?w=600&quality=80" alt="img">
+		<h1>Pricing Cards</h1>
+		<p class="price">Price: Rs.200</p>
+		<p class="description"> Description: This is the brief description about the image</p>
+		<button>Buy Now</button>
+	</div>
 
 </body>
 
